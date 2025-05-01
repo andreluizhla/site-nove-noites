@@ -7,9 +7,14 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Variáveis */
+:root {
+  --color: #0050ff;
+  --bg: #000;
+}
 
 body {
-  background-color: #000;
+  background-color: var(--bg);
   color: #fff;
   line-height: 1.6;
 }
@@ -45,9 +50,8 @@ section {
 .highlight {
   text-align: justify;
   align-content: center;
-  background-color: #0050ff;
+  background-color: var(--color);
   padding: 3rem;
-  /* margin: 1rem 0; */
 }
 
 .title-section {
@@ -60,6 +64,7 @@ section {
 .hero {
   text-align: left;
   display: flex;
+  align-items: center;
 }
 
 .hero h1 {
@@ -76,9 +81,9 @@ section {
   height: 300px;
 }
 
-.imageTiny {
-  width: 150px;
-  height: auto;
+.imageBig {
+  width: 550px;
+  height: 550px;
 }
 
 h2 {
@@ -111,7 +116,7 @@ h2 {
 }
 
 .contact div button {
-  background-color: #0050ff;
+  background-color: var(--color);
   color: white;
   padding: 0.75rem 2rem;
   border: none;
@@ -135,4 +140,17 @@ h2 {
   margin-right: 1rem;
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+
+  .container {
+    max-width: fit-content;
+    padding: 0;
+  }
+
+  img {
+    width: fit-content;
+    height: fit-content;
+  }
 }
