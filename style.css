@@ -142,7 +142,7 @@ h2 {
   text-decoration: none;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 
   .container {
     max-width: fit-content;
@@ -153,4 +153,4 @@ h2 {
     width: fit-content;
     height: fit-content;
   }
-}
+} */
