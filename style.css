@@ -181,53 +181,43 @@ img {
 }
 
 /* André comenta */
-@media (max-width: 710px) {
+@media (max-width: 710px) { /* Define um estilo específico para quando a tela do dispositivo (@media) ficar abaixo de 710px */
   
-  * {
-    text-align: center;
-  }
+  * { /* Define um estilo para todos os elementos do HTML */
+    text-align: center; /* Centraliza o texto */
+  } /* Finaliza a declaração */
   
-  .theFoot, .portrait {
-    display: block;
-  }
+  .section, .theFoot, .portrait, .contact{ /* Altera o estilo, das seções, imagens do rodapé da seção, da seção com 2 imagens e a seção para contato */
+    display: block; /* Define o tipo de visualização para blocos */
+    text-align: center; /* Centraliza o texto */
+  } /* Finaliza a declaração */
   
-  .section, .theFoot, .portrait, .contact{
-    display: block;
-    text-align: center;
-  }
+  .imageSmall{ /* Define o estilo para imagens que são pequenas */
+    width: 46%; /* Define uma largura de 46% em relação a imagem original (100%) */
+  } /* Finaliza a declaração */
   
-  .imageSmall{
-    width: 46%;
-  }
+  img, .image, .imageBig { /* Cria um estilo para as imagens */
+    width: 430px; /* Define uma largura específica de 430px */
+  } /* Finaliza a declaração */
   
-  img, .image, .imageBig {
-    width: 430px;
-  }
-  
-}
+} /* Finaliza a declaração do @media */
 
-@media (max-width: 500px) {
+@media (max-width: 500px) { /* Define um estilo específico para quando a tela do dispositivo (@media) ficar abaixo de 500px */
 
-  html {
-    font-size: 80%;
-  }
+  html { /* Define o estilo para a tag HTML */
+    font-size: 80%; /* Define o tamanho da fonte para 80% em relação ao tamanho original da fonte */
+  } /* Finaliza a declaração */
 
-  img, .imageBig, #livroCarla, .imageSmall{
-    width: -webkit-fill-available;
-  }
-}
+  .image, .imageBig, #livroCarla, .imageSmall{ /* Define o estilo para as classes de imagens, imagens grandes e pequenas, além da imagem da seção de contatos */
+    width: -webkit-fill-available; /* Define a largura para preencher todo o espaço disponível */
+  } /* Finaliza a declaração */
 
-@media (max-width: 430px) {
+} /* Finaliza a declaração do @media */
 
-  html {
-    font-size: 65%;
-  }
+@media (max-width: 430px) { /* Define um estilo específico para quando a tela do dispositivo (@media) ficar abaixo de 430px */
 
-  .section, .theFoot, .portrait, .contact{
-    display: block;
-  }
+  html { /* Define o estilo para a tag HTML */
+    font-size: 65%; /* Define o tamanho da fonte para 65% em relação ao tamanho original da fonte */
+  } /* Finaliza a declaração */
 
-  img, .imageBig, #livroCarla, .imageSmall{
-    width: -webkit-fill-available;
-  }
-}
+} /* Finaliza a declaração do @media */
