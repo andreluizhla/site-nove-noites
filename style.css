@@ -44,40 +44,38 @@ section {
   flex-direction: column;
 }
 
+
 /* Diogo Comenta */
-.justify {
-  justify-content: center;
-}
 
-.highlight {
-  text-align: justify;
-  align-content: center;
-  background-color: var(--color);
-  padding: 3rem;
-}
+.highlight {/* Define um estilo para os paragrafos*/
+  text-align: justify; /* Essa configuração define um texto justificado*/
+  align-content: center;/* Essa configuração define um alinhamento de conteudo*/
+  background-color: var(--color); /* Essa configuração define a cor para o fundo*/
+  padding: 3rem;/* Essa comfiguração cria um espaço entre o elemento e a borda*/
+} /* Finaliza a declaração */
 
-.title-section {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.9rem;
-  margin: 1rem 2rem;
-}
+.title-section {/* Define um estilo para o titulo de uma sessão*/
+  text-transform: uppercase;/* Essa e uma configuracão para deixar o texto maiusculo*/
+  letter-spacing: 2px;/*Essa configuração define um espaço entre as letras de dois pixels*/
+  font-size: 0.9rem;/* Essa configuração define o tamanho da fonte*/
+  margin: 1rem 2rem;/* Essa configuração define a margem*/
+} /* Finaliza a declaração */
 
-.section {
-  text-align: left;
-  display: flex;
-  align-items: center;
-}
+.section {/* Define um estilo para sessões*/
+  text-align: left;/* Essa confuguração faz o texto se alinhar para esquerda*/
+  display: flex;/* Essa configuração define o tipo de visualização para flexivel*/
+  align-items: center;/* Essa configuração define os itens para o centro*/
+} /* Finaliza a declaração */
 
-.section h1, h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
+.section h1, h2 {/* Define o estilo para os titulos da sessões*/
+  font-size: 2.5rem;/* Essa configuração define o tamanho da fonte */
+  margin-bottom: 1rem;/* Essa configuração cria uma margem na parte de baixo */
+} /* Finaliza a declaração */
 
-img {
-  width: 460px;
-  height: max-content;
-}
+img {/* Define o estilo para todas as imagens do site*/
+  width: 460px;/* Essa configuração define a largura para 460 pixels */
+  height: max-content;/* Essa configuração define a altura para ser o mesmo que a largura*/
+} /* Finaliza a declaração */
 
 
 /* Mauro Comenta */
