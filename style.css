@@ -45,6 +45,7 @@ section {
 }
 
 
+
 /* Diogo Comenta */
 
 .highlight {/* Define um estilo para os paragrafos*/
@@ -78,61 +79,64 @@ img {/* Define o estilo para todas as imagens do site*/
 } /* Finaliza a declaração */
 
 
+
 /* Mauro Comenta */
-.imageSmall {
-  width: 300px;
+.imageSmall { /* Define a largura das imagens pequenas */
+  width: 300px; /* A largura da imagem será 300px */
 }
 
-.imageBig {
-  width: 550px;
+.imageBig {/* Define a largura das imagens grandes */
+  width: 550px; /* A largura da imagem será 550px */
 }
 
-.text-box {
-  padding: 1rem;
+.text-box {/* Define o padding (espaçamento interno) da caixa de texto */
+  padding: 1rem; /* 1rem de padding em todos os lados da caixa de texto */
 }
 
-.portrait {
-  display: flex;
-  align-items: center;
+.portrait {/* Aplica o estilo para uma área de retrato com alinhamento central */
+  display: flex; /* Utiliza o layout flexbox */
+  align-items: center; /* Alinha os itens no centro verticalmente */
 }
 
-.theFoot {
-  display: flex; 
-  flex-wrap: wrap;
+.theFoot {/* Aplica estilo ao rodapé, permitindo que os itens se organizem em várias linhas quando necessário */
+  display: flex;  /* Utiliza o layout flexbox */
+  flex-wrap: wrap; /* Permite que os itens se quebrem em várias linhas se não houver espaço suficiente */
 }
 
-.contact {
-  background-color: #111;
-  padding: 2rem;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
+.contact {/* Define o estilo do formulário de contato */
+  background-color: #111; /* Define o fundo da área de contato como um tom escuro (quase preto) */
+  padding: 2rem; /* Adiciona um padding de 2rem em todos os lados do formulário */
+  border-radius: 8px; /* Aplica bordas arredondadas de 8px no contêiner */
+  display: flex; /* Utiliza o layout flexbox */
+  align-items: center; /* Alinha os itens verticalmente no centro */
 }
 
-.contact div input, .contact div textarea {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: none;
-  border-radius: 4px;
+.contact div input, .contact div textarea {/* Estiliza os inputs e textareas dentro do formulário de contato */
+  width: 100%; /* A largura dos campos será 100% do tamanho do contêiner pai */
+  padding: 0.75rem; /* Adiciona 0.75rem de padding nos campos */
+  margin-bottom: 1rem; /* Adiciona 1rem de margem abaixo dos campos */
+  border: none; /* Remove a borda dos campos */
+  border-radius: 4px; /* Aplica bordas arredondadas de 4px aos campos */
 }
 
-.contact div button {
-  background-color: var(--color);
-  color: white;
-  padding: 0.75rem 2rem;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.contact div button {/* Estiliza o botão dentro do formulário de contato */
+  background-color: var(--color); /* Define a cor de fundo do botão como a variável CSS '--color' */
+  color: white; /* Define a cor do texto do botão como branca */
+  padding: 0.75rem 2rem; /* Adiciona 0.75rem de padding na parte superior e inferior, e 2rem nas laterais */
+  border: none; /* Remove a borda do botão */
+  border-radius: 4px; /* Aplica bordas arredondadas de 4px ao botão */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar por cima do botão */
 }
 
-#contato-social {
-  padding: 2rem 1rem;
+#contato-social {/* Aplica padding ao elemento com id 'contato-social' */
+  padding: 2rem 1rem; /* Adiciona 2rem de padding na parte superior e inferior, e 1rem nas laterais */
 }
 
-#livroCarla {
-  width: 40%;
+#livroCarla {/* Define a largura do elemento com id 'livroCarla' como 40% */
+  width: 40%; /* Define a largura do elemento como 40% da largura do seu contêiner pai */
 }
+
+
 
 /* Victor Comenta */
 .social {
