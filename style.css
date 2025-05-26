@@ -1,49 +1,46 @@
 /* Lays Comenta */
-/* Alterações gerais */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+* { /* Define um estilo para todos os elementos */
+  margin: 0; /* define que a margem vai ser 0 */
+  padding: 0; /* define um preencimento ao volta de um objeto 0*/
+  box-sizing: border-box;/* define uma borda a caixa de texto*/
+  font-family: 'Montserrat', sans-serif;/* define um estilo de fonte*/
 }
 
-/* Variáveis */
-:root {
-  --color: #0050ff;
-  --bg: #000;
+:root { /* Define variáveis globais que podem ser reutilizadas no CSS */
+  --color: #0050ff; /* Cor azul personalizada */
+  --bg: #000; /* Cor de fundo preta */
 }
 
-body {
-  background-color: var(--bg);
-  color: #fff;
-  line-height: 1.6;
+body { /* Estiliza o corpo da página */
+  background-color: var(--bg); /* Usa a variável de fundo definida em :root */
+  color: #fff;  /* Define a cor do texto como branco */
+  line-height: 1.6;  /* Define a altura da linha */
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 2rem;
+.container { /* Estiliza o contêiner principal da página */
+  max-width: 1200px; /* Define uma largura máxima para limitar o conteúdo em telas grandes */
+  margin: auto;  /* Centraliza o contêiner horizontalmente */
+  padding: 2rem;  /* Adiciona espaçamento interno ao redor do conteúdo */
 }
 
-section {
-  margin-bottom: 4rem;
+section { /* Aplica margem inferior às seções para espaçamento entre elas */
+  margin-bottom: 4rem; /* Espaçamento inferior de 4rem entre seções */
 }
 
 
-.center {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.center { /* Classe para centralizar elementos usando Flexbox */
+  display: flex; /* Usa layout flexível */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se necessário */
+  justify-content: center; /* Centraliza os itens horizontalmente */
 }
 
-.group{
-  flex: 1;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  flex-direction: column;
+.group{ /* Agrupa elementos com layout em coluna usando Flexbox */
+  flex: 1;   /* Permite que o grupo cresça igualmente dentro do contêiner flexível */
+  display: flex;  /* Usa layout flexível */
+  flex-wrap: wrap;  /* Permite quebra de linha interna */
+  align-content: flex-start; /* Alinha o conteúdo no topo do grupo */
+  flex-direction: column; /* Organiza os itens em coluna */
 }
-
 
 
 /* Diogo Comenta */
